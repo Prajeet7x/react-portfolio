@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* background: #23252C; */
+    color: #FFFFFF;
+}
+
+.main-container {
+    background: #23252C;
+    height: 100rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.header-cont {
+    height: 370px;
+    width: 370px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.body-cont {
+    height: 399px;
+    width: 370px;
+    /* border: solid 1px blue; */
+    background: #1A1B21;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-cont {
+    height: 64px;
+    width: 370px;
+    background-color:
+        #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profile-cont {
+    /* height: 370px; */
+    width: 370px;
+}
+
+.title-cont,
+.socials-cont,
+.about-interests-cont {
+    background-color: #1A1B21;
+}
+
+.about-interests-cont {
+    padding-left: 36px;
+    padding-right: 38px;
+}
+
+
+.title-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #1A1B21;
+    color: #FFFFFF;
+}
+
+.title-position {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    background-color: #1A1B21;
+}
+
+.title-website {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+
+    text-align: center;
+    background-color: #1A1B21;
+    color: #F5F5F5;
+}
+
+.socials-cont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mail-cont,
+.linkedin-cont {
+    width: 115px;
+    height: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mail-cont {
+    /* white */
+    color: #374151;
+
+    background: #FFFFFF;
+    /* gray/300 */
+
+    border: 1px solid #D1D5DB;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.linkedin-cont {
+    background: #5093E2;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.email-text {
+    color: #374151;
+}
+
+.content-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+}
+
+.content-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+
+}
